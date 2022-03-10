@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = ' hola';
+const nuevaString = 'hola';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 1;
@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 20 % 5 === 1;
+const nuevoModulo = 20 % 5 === 0;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -36,7 +36,6 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   return x+y
-   
 }
 
 function resta(x, y) {
@@ -72,7 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return  str1.length === str2.length;
+  return str1.length === str2.length;
 }
 
 function menosQueNoventa(num) {
@@ -80,7 +79,7 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num < 90) {
-    return true}
+    return true;
   }else {
     return false;
   }
@@ -95,14 +94,12 @@ function mayorQueCincuenta(num) {
   }else {
     return false;
   }
-  }
-  
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x % y;
+  return x % y ;
 }
 
 function esPar(num) {
@@ -110,18 +107,21 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 === 0){
-    return true;}
-    else false;
+    return true;
+  } else {
+    return false;
   }
-}
+  }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 === 1){
-    return true;}
-    else false;
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function elevarAlCuadrado(num) {
@@ -170,10 +170,10 @@ function esPositivo(numero) {
     return false;
   }
   else if(numero > 0) {
-    return "positivo";
+    return "Es positivo";
   }
   else {
-    return "negativo";
+    return "Es negativo";
   }
 }
 
